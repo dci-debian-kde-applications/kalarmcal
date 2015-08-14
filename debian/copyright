@@ -3,9 +3,8 @@ Upstream-Name: kalarmcal
 Source: http://download.kde.org/pub/kde/unstable/applications/
 
 Files: *
-Copyright:
-2001-2013 by David Jarvie <djarvie@kde.org>
-2014 Laurent Montel <montel@kde.org>
+Copyright: 2001-2013 David Jarvie <djarvie@kde.org>
+           2014 Laurent Montel <montel@kde.org>
 License: LGPL-2+
 
 Files: debian/*
