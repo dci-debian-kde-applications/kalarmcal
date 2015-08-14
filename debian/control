@@ -21,7 +21,13 @@ Package: libkf5alarmcalendar-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5alarmcalendar5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5akonadi-dev,
+         libkf5alarmcalendar5 (= ${binary:Version}),
+         libkf5calendarcore-dev,
+         libkf5holidays-dev,
+         libkf5identitymanagement-dev,
+         libkf5kdelibs4support-dev,
+         ${misc:Depends}
 Description: library for handling kalarm calendar data - development files
  This library provides access to and handling of kalarm calendar data.
  .
