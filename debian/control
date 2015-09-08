@@ -1,0 +1,53 @@
+Source: kalarmcal
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.12.0~),
+               libboost-dev,
+               libkf5akonadi-dev,
+               libkf5calendarcore-dev,
+               libkf5holidays-dev,
+               libkf5identitymanagement-dev,
+               libkf5kdelibs4support-dev,
+               pkg-kde-tools (>> 0.15.15)
+Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
+Homepage: https://projects.kde.org/projects/kde/pim/kalarmcal
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kalarmcal.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kalarmcal.git
+
+Package: libkf5alarmcalendar-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libkf5akonadi-dev,
+         libkf5alarmcalendar5 (= ${binary:Version}),
+         libkf5calendarcore-dev,
+         libkf5holidays-dev,
+         libkf5identitymanagement-dev,
+         libkf5kdelibs4support-dev,
+         ${misc:Depends}
+Description: library for handling kalarm calendar data - development files
+ This library provides access to and handling of kalarm calendar data.
+ .
+ This package contains the development files.
+
+Package: libkf5alarmcalendar5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for handling kalarm calendar data
+ This library provides access to and handling of kalarm calendar data.
+
+Package: libkf5alarmcalendar-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libkf5alarmcalendar5 (= ${binary:Version}), ${misc:Depends}
+Description: library for handling kalarm calendar data - debug symbols
+ This library provides access to and handling of kalarm calendar data.
+ .
+ This package contains the debug symbols.
