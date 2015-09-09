@@ -6,11 +6,11 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.12.0~),
                libboost-dev,
-               libkf5akonadi-dev,
-               libkf5calendarcore-dev,
-               libkf5holidays-dev,
-               libkf5identitymanagement-dev,
-               libkf5kdelibs4support-dev,
+               libkf5akonadi-dev (>= 4.79.0~),
+               libkf5calendarcore-dev (>= 4.82.0~),
+               libkf5holidays-dev (>= 4.79.0~),
+               libkf5identitymanagement-dev (>= 4.79.0~),
+               libkf5kdelibs4support-dev (>= 5.12.0~),
                pkg-kde-tools (>> 0.15.15)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
@@ -22,12 +22,12 @@ Package: libkf5alarmcalendar-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5akonadi-dev,
+Depends: libkf5akonadi-dev (>= 4.79.0~),
          libkf5alarmcalendar5 (= ${binary:Version}),
-         libkf5calendarcore-dev,
-         libkf5holidays-dev,
-         libkf5identitymanagement-dev,
-         libkf5kdelibs4support-dev,
+         libkf5calendarcore-dev (>= 4.82.0~),
+         libkf5holidays-dev (>= 4.79.0~),
+         libkf5identitymanagement-dev (>= 4.79.0~),
+         libkf5kdelibs4support-dev (>= 5.12.0~),
          ${misc:Depends}
 Description: library for handling kalarm calendar data - development files
  This library provides access to and handling of kalarm calendar data.
