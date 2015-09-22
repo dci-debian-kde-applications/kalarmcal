@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2318 amd64 i386
 libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN9KAlarmCal7KAEventEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS7_@Base 4:15.07.90
  _ZN9KAlarmCal10Identities12identityUoidERK7QString@Base 4:15.07.90
@@ -48,10 +48,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZN9KAlarmCal12KARecurrence4initEN8KCalCore14RecurrenceRule10PeriodTypeEiiRK9KDateTimeS6_NS0_9Feb29TypeE@Base 4:15.07.90
  _ZN9KAlarmCal12KARecurrence4typeEPKN8KCalCore14RecurrenceRuleE@Base 4:15.07.90
  _ZN9KAlarmCal12KARecurrence5clearEv@Base 4:15.07.90
- _ZN9KAlarmCal12KARecurrence7Private13mDefaultFeb29E@Base 4:15.07.90
- _ZN9KAlarmCal12KARecurrence7Private3fixEv@Base 4:15.07.90
- _ZN9KAlarmCal12KARecurrence7Private3setENS0_4TypeEiiiRK9KDateTimeS5_@Base 4:15.07.90
- _ZN9KAlarmCal12KARecurrence7Private4initEN8KCalCore14RecurrenceRule10PeriodTypeEiiiRK9KDateTimeS7_@Base 4:15.07.90
  _ZN9KAlarmCal12KARecurrence9addExDateERK5QDate@Base 4:15.07.90
  _ZN9KAlarmCal12KARecurrence9dailyTypeEPKN8KCalCore14RecurrenceRuleE@Base 4:15.07.90
  _ZN9KAlarmCal12KARecurrenceC1ERKN8KCalCore10RecurrenceE@Base 4:15.07.90
@@ -105,8 +101,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZN9KAlarmCal22CompatibilityAttributeD1Ev@Base 4:15.07.90
  _ZN9KAlarmCal22CompatibilityAttributeD2Ev@Base 4:15.07.90
  _ZN9KAlarmCal22CompatibilityAttributeaSERKS0_@Base 4:15.07.90
- _ZN9KAlarmCal7KAAlarm7PrivateC1Ev@Base 4:15.07.90
- _ZN9KAlarmCal7KAAlarm7PrivateC2Ev@Base 4:15.07.90
  _ZN9KAlarmCal7KAAlarm7setTimeERK9KDateTime@Base 4:15.07.90
  _ZN9KAlarmCal7KAAlarm7setTimeERKNS_8DateTimeE@Base 4:15.07.90
  _ZN9KAlarmCal7KAAlarm9debugTypeENS0_4TypeE@Base 4:15.07.90
@@ -198,7 +192,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZN9KAlarmCal8DateTime11setTimeSpecERKN9KDateTime4SpecE@Base 4:15.07.90
  _ZN9KAlarmCal8DateTime13setStartOfDayERK5QTime@Base 4:15.07.90
  _ZN9KAlarmCal8DateTime19setSecondOccurrenceEb@Base 4:15.07.90
- _ZN9KAlarmCal8DateTime7Private11mStartOfDayE@Base 4:15.07.90
  _ZN9KAlarmCal8DateTime7setDateERK5QDate@Base 4:15.07.90
  _ZN9KAlarmCal8DateTime7setTimeERK5QTime@Base 4:15.07.90
  _ZN9KAlarmCal8DateTime9setTime_tEj@Base 4:15.07.90
@@ -222,25 +215,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZN9KAlarmCal9AlarmText12emailHeadersERK7QStringb@Base 4:15.07.90
  _ZN9KAlarmCal9AlarmText14toCalendarTextERK7QString@Base 4:15.07.90
  _ZN9KAlarmCal9AlarmText16fromCalendarTextERK7QStringRb@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private10initialiseEv@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private10mDuePrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private11mCcPrefixEnE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private11mDatePrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private11mFromPrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private11mLocnPrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private11mToPrefixEnE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private12mInitialisedE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private12mTitlePrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private13mDatePrefixEnE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private13mFromPrefixEnE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private14mSubjectPrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private16emailHeaderCountERK11QStringList@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private16mSubjectPrefixEnE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private17setUpTranslationsEv@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private5clearEv@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private9mCcPrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private9mToPrefixE@Base 4:15.07.90
- _ZN9KAlarmCal9AlarmText7Private9todoTitleERK7QString@Base 4:15.07.90
  _ZN9KAlarmCal9AlarmText7setTextERK7QString@Base 4:15.07.90
  _ZN9KAlarmCal9AlarmText7setTodoERK14QSharedPointerIN8KCalCore4TodoEE@Base 4:15.07.90
  _ZN9KAlarmCal9AlarmText7summaryERKNS_7KAEventEiPb@Base 4:15.07.90
@@ -290,9 +264,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZNK9KAlarmCal12KARecurrence4typeEv@Base 4:15.07.90
  _ZNK9KAlarmCal12KARecurrence6allDayEv@Base 4:15.07.90
  _ZNK9KAlarmCal12KARecurrence6recursEv@Base 4:15.07.90
- _ZNK9KAlarmCal12KARecurrence7Private11endDateTimeEv@Base 4:15.07.90
- _ZNK9KAlarmCal12KARecurrence7Private15writeRecurrenceEPKS0_RN8KCalCore10RecurrenceE@Base 4:15.07.90
- _ZNK9KAlarmCal12KARecurrence7Private16combineDurationsEPKN8KCalCore14RecurrenceRuleES5_R5QDate@Base 4:15.07.90
  _ZNK9KAlarmCal12KARecurrence7endDateEv@Base 4:15.07.90
  _ZNK9KAlarmCal12KARecurrence7exDatesEv@Base 4:15.07.90
  _ZNK9KAlarmCal12KARecurrence8durationEv@Base 4:15.07.90
@@ -487,7 +458,6 @@ libKF5AlarmCalendar.so.5 libkf5alarmcalendar5 #MINVER#
  _ZNK9KAlarmCal9AlarmText4fromEv@Base 4:15.07.90
  _ZNK9KAlarmCal9AlarmText4timeEv@Base 4:15.07.90
  _ZNK9KAlarmCal9AlarmText6isTodoEv@Base 4:15.07.90
- _ZNK9KAlarmCal9AlarmText7Private11displayTextEv@Base 4:15.07.90
  _ZNK9KAlarmCal9AlarmText7isEmailEv@Base 4:15.07.90
  _ZNK9KAlarmCal9AlarmText7isEmptyEv@Base 4:15.07.90
  _ZNK9KAlarmCal9AlarmText7subjectEv@Base 4:15.07.90
