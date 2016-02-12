@@ -1,9 +1,9 @@
-kalarmcal (15.12.0-2~) UNRELEASED; urgency=medium
+kalarmcal (15.12.0-2) experimental; urgency=medium
 
   * Bump build dependencies to match packages versions, and not
     libraries versions.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Feb 2016 08:57:29 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Feb 2016 09:13:21 +0100
 
 kalarmcal (15.12.0-1) experimental; urgency=medium
 
