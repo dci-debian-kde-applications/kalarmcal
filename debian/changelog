@@ -1,10 +1,10 @@
-kalarmcal (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kalarmcal (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release.
   * Debian Merge: No remaining changes. 
   * Bump dependency requirements for pim*. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 06:49:56 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:27:02 +0100
 
 kalarmcal (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
