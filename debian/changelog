@@ -1,3 +1,9 @@
+kalarmcal (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 20:54:28 -0800
+
 kalarmcal (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
   * Fix epochs on build deps. 
