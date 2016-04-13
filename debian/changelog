@@ -1,3 +1,11 @@
+kalarmcal (15.12.3-1~1.gbpa5cd64) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a5cd6495fcdefbf33c6fdf3eaa262e8b0eb2d19a **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:46:33 +0200
+
 kalarmcal (15.12.0-2) experimental; urgency=medium
 
   * Bump build dependencies to match packages versions, and not
