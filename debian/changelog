@@ -1,3 +1,13 @@
+kalarmcal (16.04.0-1~1.gbp422ee8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @422ee809111dfe11cfe67bfd98a81e9f047230a9 **
+
+  * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:31:11 +0200
+
 kalarmcal (15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
