@@ -8,12 +8,6 @@ kalarmcal (16.04.0-1~1.gbp422ee8) UNRELEASED; urgency=medium
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:31:11 +0200
 
-kalarmcal (15.12.2-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (15.12.2).
-
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:42:12 +0100
-
 kalarmcal (15.12.0-2) experimental; urgency=medium
 
   * Bump build dependencies to match packages versions, and not
