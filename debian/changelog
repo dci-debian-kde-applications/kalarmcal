@@ -1,3 +1,9 @@
+kalarmcal (16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:12:15 +0200
+
 kalarmcal (16.04.0-1~1.gbp422ee8) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @422ee809111dfe11cfe67bfd98a81e9f047230a9 **
