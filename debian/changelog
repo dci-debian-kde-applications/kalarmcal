@@ -1,6 +1,6 @@
-kalarmcal (16.04.1-1~1.gbp39bfea) UNRELEASED; urgency=medium
+kalarmcal (16.04.1-1~2.gbp0ff81d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @39bfea6c40701e6f691f1f9eba6182e0cf0ee3d8 **
+  ** SNAPSHOT build @0ff81da00f2808be13d0499cafdd0004ee1d3715 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @422ee809111dfe11cfe67bfd98a81e9f047230a9 **
@@ -16,8 +16,10 @@ kalarmcal (16.04.1-1~1.gbp39bfea) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
   * UNRELEASED
+  * Add missing build dependency.
+  * Update kholidays build dependency
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:31:13 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 31 May 2016 17:31:12 +0200
 
 kalarmcal (15.12.0-2) experimental; urgency=medium
 
