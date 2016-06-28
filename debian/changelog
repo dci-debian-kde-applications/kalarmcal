@@ -1,10 +1,8 @@
-kalarmcal (16.04.2-1~1.gbpabca7c) UNRELEASED; urgency=medium
+kalarmcal (16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @abca7c0829753d9fd55151759c7c843ab1405f36 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:31:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 08:32:08 +0200
 
 kalarmcal (16.04.1-1) experimental; urgency=medium
 
