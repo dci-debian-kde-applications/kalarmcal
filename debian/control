@@ -10,6 +10,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5calendarcore-dev (>= 4:15.12~),
                libkf5holidays-dev (>= 15.12~),
+               libkf5holidays-dev (>= 16.04),
                libkf5identitymanagement-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15)
