@@ -1,6 +1,6 @@
-kalarmcal (16.08.0-1~1.gbpd57eaf) UNRELEASED; urgency=medium
+kalarmcal (16.08.1-1~1.gbpd1a194) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d57eaf252628ca0de775c2803f02ee6cf2288098 **
+  ** SNAPSHOT build @d1a194ee24aecdc8fca5e049d669f811139a2614 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @c3e7091d055e252a945816e2b7b4e3f9d66770c2 **
@@ -9,8 +9,9 @@ kalarmcal (16.08.0-1~1.gbpd57eaf) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 01:31:12 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:31:36 +0200
 
 kalarmcal (16.04.2-2) unstable; urgency=medium
 
