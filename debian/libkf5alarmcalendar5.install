@@ -2,3 +2,4 @@ etc/xdg/kalarmcal.categories
 etc/xdg/kalarmcal.renamecategories
 usr/lib/*/libKF5AlarmCalendar.so.5
 usr/lib/*/libKF5AlarmCalendar.so.5.*
+usr/share/locale/
