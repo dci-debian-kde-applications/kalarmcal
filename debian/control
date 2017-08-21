@@ -39,7 +39,11 @@ Package: libkf5alarmcalendar5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: library for handling kalarm calendar data
  This library provides access to and handling of kalarm calendar data.
