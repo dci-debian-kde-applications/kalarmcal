@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5holidays-dev (>= 16.04),
                libkf5identitymanagement-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.23.0~),
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/kalarmcal
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalarmcal.git
@@ -29,7 +29,7 @@ Depends: libkf5akonadi-dev (>= 4:15.12~),
          libkf5holidays-dev (>= 15.12~),
          libkf5identitymanagement-dev (>= 15.12~),
          libkf5kdelibs4support-dev (>= 5.23.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: library for handling kalarm calendar data - development files
  This library provides access to and handling of kalarm calendar data.
  .
