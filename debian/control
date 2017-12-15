@@ -22,7 +22,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kalarmcal.git
 Package: libkf5alarmcalendar-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:15.12~),
          libkf5alarmcalendar5 (= ${binary:Version}),
          libkf5calendarcore-dev (>= 4:15.12~),
