@@ -14,7 +14,7 @@ Build-Depends: cmake (>= 3.0~),
                libkf5kdelibs4support-dev (>= 5.35.0~),
                libkf5pimtextedit-dev (>= 17.08~),
                pkg-kde-tools (>> 0.15.15),
-Standards-Version: 4.0.1
+Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/kalarmcal
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kalarmcal.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kalarmcal.git
