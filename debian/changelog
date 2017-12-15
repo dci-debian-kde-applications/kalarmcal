@@ -5,6 +5,7 @@ kalarmcal (4:17.08.3-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
   * Mark libkf5alarmcalendar-dev correctly as Multi-Arch: same
+  * Remove not needed Build-Deps.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 19:06:57 +0100
 
